@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Puma",
+      "price": 100,
+      "isDiscounted": false
+    },
+    {
+      "id": "2",
+      "name": "Reebok",
+      "price": 100,
+      "isDiscounted": true
+    },
+    {
+      "id": "3",
+      "name": "Nike",
+      "price": 100,
+      "isDiscounted": false
+    },
+    {
+      "id": "4",
+      "name": "Adidas",
+      "price": 100,
+      "isDiscounted": true
+    }
+  ]
+}
