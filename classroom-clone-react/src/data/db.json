@@ -1,0 +1,83 @@
+{
+  "teachers": [
+    {
+      "id": "1",
+      "fullName": "Elnur Khalilov",
+      "username": "elnurxo",
+      "email": "elnurxo@code.edu.com.ru",
+      "password": "Salam123",
+      "major": "programming",
+      "profileImage": "https://cdn.apollo.audio/one/media/63ee/101c/e131/5d05/a2a5/7a08/the-weeknd-facts-songs-career.jpg?quality=80&format=jpg&crop=0,0,1062,1890&resize=crop"
+    },
+    {
+      "id": "b43d",
+      "fullName": "Gulsen Zalova",
+      "username": "gulsenzalova",
+      "email": "gulsenz@mail.ru",
+      "password": "Salam123",
+      "major": "Front-end"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "fullName": "John Doe",
+      "username": "johndoe",
+      "email": "johndoe@example.com",
+      "password": "password123",
+      "grades": [],
+      "profileImage": "https://www.w3schools.com/howto/img_avatar.png"
+    },
+    {
+      "id": "b862",
+      "fullName": "Emin Suleymanov",
+      "username": "emin14",
+      "email": "emin14@mail.ru",
+      "password": "Salam123",
+      "grades": []
+    },
+    {
+      "id": "c7c6",
+      "fullName": "emin",
+      "username": "emin",
+      "email": "emin@mail.ru",
+      "password": "Salam123",
+      "grades": []
+    },
+    {
+      "id": "21db",
+      "fullName": "euwvw",
+      "username": "ebeb",
+      "email": "eim@ma.ri",
+      "password": "Slam1",
+      "grades": []
+    },
+    {
+      "id": "c40d",
+      "fullName": "fullname",
+      "username": "emin",
+      "email": "emin@mail.ru",
+      "password": "Slaam1",
+      "grades": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "React Homework",
+      "description": "Create a React application to demonstrate your understanding of React concepts.",
+      "topic": "React",
+      "deadline": "2024-05-10",
+      "createdAt": "2024-05-05",
+      "teacherId": "1",
+      "assignments": [
+        {
+          "taskId": "1",
+          "studentId": "2",
+          "submissionDate": "2024-05-08",
+          "submission": "Link to the submitted assignment or any relevant data"
+        }
+      ]
+    }
+  ]
+}
