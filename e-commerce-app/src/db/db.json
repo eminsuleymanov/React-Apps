@@ -1,0 +1,63 @@
+{
+    "users":[
+        {
+            "username": "john_doe",
+            "password": "password123",
+            "createdAt": 1620682900000,
+            "email": "john@example.com",
+            "profileImg": "profile.jpg",
+            "balance": 100,
+            "role": "client"
+          },
+          {
+            "username": "emin14",
+            "password": "Admin123",
+            "createdAt": 1620682900000,
+            "email": "emin14@mail.ru",
+            "profileImg": "avatar.jpg",
+            "balance": 150,
+            "role": "admin"
+          }
+    ],
+    "products":[
+        {
+            "id": 1,
+            "name": "Smartphone",
+            "salePrice": 499,
+            "costPrice": 350,
+            "createdAt": 1620682900000,
+            "imgSrc": "https://www.cnet.com/a/img/resize/690ad0a97cf8fc98f3cf851e7b149d2ffc5b171e/hub/2023/05/04/31dfdcf2-1ac3-4320-b40c-4c356300f06e/google-pixel-7a-phone-14.jpg?auto=webp&height=500",
+            "discountPercentage": 10,
+            "description": "A high-quality smartphone with advanced features.",
+            "categoryId": 1,
+            "stockCount": 100
+          },
+          {
+            "id": 2,
+            "name": "Laptop",
+            "salePrice": 999,
+            "costPrice": 800,
+            "createdAt": 1620682900000,
+            "imgSrc": "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
+            "discountPercentage": null,
+            "description": "Powerful laptop for work and entertainment.",
+            "categoryId": 2,
+            "stockCount": 50
+          }
+    ],
+    "messages":[
+        {
+
+        }
+    ],
+    "orders":[
+        {
+
+        }
+    ],
+    "categories":[
+        {
+
+        }
+    ]
+}
