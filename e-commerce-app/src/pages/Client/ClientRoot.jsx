@@ -13,7 +13,6 @@ const ClientRoot = () => {
     });
     controller.getAll(endpoints.products).then((resp)=>{
       setProducts(resp.data);
-      console.log(resp.data);
     })
   })
   return (

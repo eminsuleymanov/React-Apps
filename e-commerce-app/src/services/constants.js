@@ -1,4 +1,4 @@
-export const base_url = "";
+export const base_url = "http://localhost:3000";
 export const endpoints = {
     users: "/users",
     products: "/products",

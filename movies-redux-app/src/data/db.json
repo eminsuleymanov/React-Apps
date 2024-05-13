@@ -1,0 +1,82 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Alien",
+      "genre": "horror",
+      "releaseYear": 2014,
+      "posterImg": "https://i.ebayimg.com/images/g/3QgAAOSwUnJiTBar/s-l400.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Titanic",
+      "genre": "romantic",
+      "releaseYear": 2000,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
+    },
+
+    {
+      "id": "3",
+      "title": "The Godfather",
+      "genre": "crime",
+      "releaseYear": 1972,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Inception",
+      "genre": "sci-fi",
+      "releaseYear": 2010,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Shawshank Redemption",
+      "genre": "drama",
+      "releaseYear": 1994,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Dark Knight",
+      "genre": "action",
+      "releaseYear": 2008,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Forrest Gump",
+      "genre": "drama",
+      "releaseYear": 1994,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Interstellar",
+      "genre": "sci-fi",
+      "releaseYear": 2014,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    },
+    {
+      "id": "9",
+      "title": "The Matrix",
+      "genre": "sci-fi",
+      "releaseYear": 1999,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Pulp Fiction",
+      "genre": "crime",
+      "releaseYear": 1994,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Jurassic Park",
+      "genre": "adventure",
+      "releaseYear": 1993,
+      "posterImg": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg"
+    }
+  ]
+}

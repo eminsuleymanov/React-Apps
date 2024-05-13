@@ -14,7 +14,7 @@ const AdminRoot = () => {
     controller.getAll(endpoints.products).then((resp)=>{
       setProducts(resp.data);
     })
-  })
+  },[])
   return (
     <>
       <AdminHeader />

@@ -5,7 +5,6 @@ const { Meta } = Card;
 
 const Products = () => {
   const data = useOutletContext();
-  console.log(data);
 
   return (
     <>
