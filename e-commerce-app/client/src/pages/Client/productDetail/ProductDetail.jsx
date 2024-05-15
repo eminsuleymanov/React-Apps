@@ -1,20 +1,22 @@
 import { useEffect, useState } from "react";
-import { useOutletContext, useParams } from "react-router-dom";
+import { useNavigate, useOutletContext, useParams } from "react-router-dom";
 import { Avatar, Card } from "antd";
 import Meta from "antd/es/card/Meta";
+import { LeftCircleFilled} from "@ant-design/icons";
 const ProductDetail = () => {
-  const { id } = useParams();
+  const { _id } = useParams();
   const [product, setProduct] = useState([]);
   const data = useOutletContext();
+  const navigate = useNavigate();
   useEffect(() => {
-    setProduct(data.products.find((x) => x.id == id));
-  }, [id, data.products]);
+    setProduct(data.products.find((x) => x.id == _id));
+  }, [_id, data.products]);
 
   return (
     <>
       {product && (
         <Card
-          key={product.id}
+          key={product._id}
           style={{
             width: 350,
             margin: "10px",
@@ -33,16 +35,14 @@ const ProductDetail = () => {
           }
           actions={
             [
-              // <InfoCircleOutlined key="detail"/>
-              //    <EditOutlined key="edit" />,
-              //    <EllipsisOutlined key="ellipsis" />,
+              <LeftCircleFilled style={{fontSize:"20px"}} onClick={(()=>{navigate('/products')})} key='back'/>
             ]
           }
         >
           <Meta
-            avatar={<Avatar src={product.flagImg} />}
+            avatar={<Avatar src={product.imgSrc} />}
             title={product.name}
-            description={product.salePrice}
+            description={`Sale Price: ${product.salePrice}`}
           />
           <Meta title={`Stock count: ${product.stockCount}`} />
         </Card>

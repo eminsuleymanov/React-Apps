@@ -11,7 +11,7 @@ const Products = () => {
     <div style={{marginTop: '40px',flexWrap:'wrap'}} className="centered">
         {data.products && data.products.map((product)=>{
             // console.log(product.name);
-             return <Card key={product.id}
+             return <Card key={product._id}
              style={{
                width: 350,
                margin: '10px'
@@ -24,7 +24,7 @@ const Products = () => {
                />
              }
              actions={[
-              <Link key="detail" to={`/products/${product.id}`}><InfoCircleOutlined  /></Link>
+              <Link key="detail" to={`/products/${product._id}`}><InfoCircleOutlined  /></Link>
                 
             //    <EditOutlined key="edit" />,
             //    <EllipsisOutlined key="ellipsis" />,
