@@ -1,7 +1,7 @@
 import * as Yup from 'yup';
 
 
-const AdminSignInSchema = Yup.object().shape({
+const SignInSchema = Yup.object().shape({
     username: Yup
     .string()
     .required('username is required')
@@ -14,4 +14,4 @@ const AdminSignInSchema = Yup.object().shape({
 })
 
 
-export default AdminSignInSchema;
+export default SignInSchema;
