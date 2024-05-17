@@ -1,16 +1,19 @@
 import { Button, TextField } from "@mui/material";
 import { useFormik } from "formik";
 import SignInSchema from "../../../validations/signIn.validation";
-import { useNavigate, useOutletContext } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useContext } from "react";
 import { AuthContext } from "../../../context/authContext";
+import { UsersContext } from "../../../context/usersContext";
 const AdminLogin = () => {
 
-  const authDatas = useOutletContext();
+  // const authDatas = useOutletContext();
+  const {users} = useContext(UsersContext)
   const {setAdminID,setLocalAdminID} = useContext(AuthContext)
   const navigate = useNavigate();
+
   const formik = useFormik({
     initialValues: {
       username: "",
@@ -18,7 +21,8 @@ const AdminLogin = () => {
     },
     validationSchema: SignInSchema,
     onSubmit: (values) => {
-      const foundAdmin = authDatas.users.find(
+      console.log(users)
+      const foundAdmin = users.data.find(
         (x) =>
           x.username == values.username &&
           x.password == values.password &&
@@ -34,7 +38,6 @@ const AdminLogin = () => {
           navigate("/admin");
         }, 1500);
       } else {
-      console.log('auth data',authDatas)
 
         toast.error("username or password is incorrect!");
         values.username = "";

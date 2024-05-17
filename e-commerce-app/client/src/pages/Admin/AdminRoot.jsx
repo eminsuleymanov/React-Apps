@@ -6,18 +6,12 @@ import { endpoints } from "../../services/constants";
 import { AuthContext } from "../../context/authContext";
 
 const AdminRoot = () => {
-  const [users, setUsers] = useState([]);
-  const [products, setProducts] = useState([]);
   const [categories,setCategories] = useState([])
   const {adminID} = useContext(AuthContext)
   const navigate = useNavigate();
+  // console.log(adminID)
   useEffect(() => {
-    controller.getAll(endpoints.users).then((resp) => {
-      setUsers(resp.data.data);
-    });
-    controller.getAll(endpoints.products).then((resp)=>{
-      setProducts(resp.data.data);
-    })
+ 
     controller.getAll(endpoints.categories).then((resp)=>{
       setCategories(resp.data.data)
     })
@@ -25,11 +19,11 @@ const AdminRoot = () => {
       navigate('/admin/login');
     }
 
-  },[adminID])
+  },[navigate,adminID])
   return (
     <>
       <AdminHeader adminID={adminID}  />
-      <Outlet context={{products,categories,users,setProducts,setUsers }}/>
+      <Outlet context={{categories}}/>
     </>
   );
 }
