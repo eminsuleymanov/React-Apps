@@ -1,6 +1,6 @@
 import { Table, Button, Popconfirm } from "antd";
 const { Column } = Table;
-import { Link, useOutletContext } from "react-router-dom";
+import { Link } from "react-router-dom";
 import controller from "../../../services/requests";
 import { endpoints } from "../../../services/constants";
 import { useContext } from "react";

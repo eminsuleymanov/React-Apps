@@ -29,7 +29,7 @@ const AdminLogin = () => {
           x.role == "admin"
       );
       if (foundAdmin) {
-      console.log("found admin",foundAdmin);
+      // console.log("found admin",foundAdmin);
 
         setAdminID(foundAdmin._id);
         setLocalAdminID(foundAdmin._id);
