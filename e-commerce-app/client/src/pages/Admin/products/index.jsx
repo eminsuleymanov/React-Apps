@@ -41,12 +41,18 @@ const ProductsAdmin = () => {
             );
           }}
         />
-        {/* <Column
-        sorter={(a, b) => a.population - b.population}
-        title="Population"
-        dataIndex="population"
-        key="population"
-      /> */}
+        <Column
+          sorter={(a, b) => a.costPrice -b.costPrice}
+          title="CostPrice"
+          dataIndex="costPrice"
+          key="costPrice"
+        />
+        <Column
+          sorter={(a, b) => a.salePrice -b.salePrice}
+          title="SalePrice"
+          dataIndex="salePrice"
+          key="salePrice"
+        />
         <Column title="Stock Count" dataIndex="stockCount" key="stockCount" />
         <Column title="Created at" dataIndex="createdAt" key="createdAt" />
 
