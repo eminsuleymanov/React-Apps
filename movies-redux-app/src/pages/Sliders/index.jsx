@@ -8,7 +8,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { useDeleteMovieMutation, useGetMovieQuery, useGetMoviesQuery } from "../../features/movie/movieQuerySlice"
+import { useDeleteMovieMutation, useGetMoviesQuery } from "../../features/movie/movieQuerySlice"
 import DetailPage from '../DetailPage';
 
 const Sliders = () => {
@@ -40,8 +40,6 @@ const Sliders = () => {
                             }}>Delete</button>
                         </div>
                     </SwiperSlide>
-
-
                 })}
             </Swiper>
 
